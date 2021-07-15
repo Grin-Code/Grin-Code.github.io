@@ -2,6 +2,11 @@
 .column{
   float:left;
   width:45%;}
+.column2
+{
+  float:left;
+  width:22.5%;
+}
 .row:after{
   content:"";
   display:table;
