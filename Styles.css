@@ -1,33 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
 .column{
   float:left;
   width:45%;}
+  
 .column2
 {
   float:left;
   width:22.5%;
 }
+
 .row:after{
   content:"";
   display:table;
   clear:both;}
+  
 dt{color:#a6a6a6;
-	font-size:16px;
-font-family: 'Kalam', cursive;}
+	font-size:22px;
+font-family: TF2,cursive;}
+
 dd{color:#a6a6a6;
-	font-size:12px;
-font-family: 'Kalam', cursive;}
+	font-size:25px;
+font-family: tf2professor, cursive;}
+
 h3{color:#a6a6a6;
 	padding:0px;
     margin:0px;
-font-family: 'Kalam', cursive;}
+	font-size:40px;
+font-family: tf2professor, cursive;}
+
 h2{color:#a6a6a6;
 	padding:0px;
     margin:0px;
 font-size:35px;
 font-family: 'Kalam', cursive;}
+
 lo{list-style-type:decimal;
-color:#a6a6a6
-font-family: 'Kalam', cursive;}
+color:#a6a6a6;
+font-family: TF2, cursive;}
+
 li{color:#a6a6a6;
-font-family: 'Kalam', cursive;}
+font-family: TF2, normal;
+font-size:20px;}
+
+@font-face{
+    font-family: "TF2";
+	font-style: normal;
+	font-weight: 400;
+    src: url('Fonts/TF2.ttf');
+}
+@font-face{
+    font-family: "tf2professor";
+	font-style: normal;
+	font-weight: 400;
+    src: url('Fonts/tf2professor.ttf');
+}
