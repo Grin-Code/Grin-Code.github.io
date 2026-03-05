@@ -1,7 +1,7 @@
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import AppTheme from './theme/AppTheme';
-import MainContent from './components/MainContent';
+import MainContent from './Pages/Main Page';
 
 export default function Blog(props: { disableCustomTheme?: boolean }) {
     return (
