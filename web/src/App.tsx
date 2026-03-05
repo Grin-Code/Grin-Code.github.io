@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CssBaseline from '@mui/material/CssBaseline';
+import Container from '@mui/material/Container';
+import AppTheme from './theme/AppTheme';
+import MainContent from './components/MainContent';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function Blog(props: { disableCustomTheme?: boolean }) {
+    return (
+        <AppTheme {...props}>
+            <CssBaseline enableColorScheme />
+
+            <Container
+                maxWidth="lg"
+                component="main"
+                sx={{ display: 'flex', flexDirection: 'column', my: 16, gap: 4 }}
+            >
+                <MainContent />
+            </Container>
+        </AppTheme>
+    );
 }
-
-export default App;
