@@ -31,7 +31,6 @@ export const inputsCustomizations: Components<Theme> = {
       root: ({ theme }) => ({
         boxShadow: 'none',
         borderRadius: (theme.vars || theme).shape.borderRadius,
-        textTransform: 'none',
         variants: [
           {
             props: {

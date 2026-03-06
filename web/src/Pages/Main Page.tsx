@@ -117,15 +117,10 @@ export default function MainContent() {
            <StyledCard  onFocus={() => handleFocus(2)} onBlur={handleBlur} tabIndex={0} cardData={cardData[2]} focusedCardIndex={focusedCardIndex} hasMedia={true}/>
         </Grid>
         <Grid size={{ xs: 12, md: 4 }}>
-          <Box
-            sx={{ display: 'flex', flexDirection: 'column', gap: 2, height: '100%' }}
-          >
-             <StyledCard  onFocus={() => handleFocus(3)} onBlur={handleBlur} tabIndex={0} cardData={cardData[3]} focusedCardIndex={focusedCardIndex} hasMedia={false}/>
-             <StyledCard  onFocus={() => handleFocus(4)} onBlur={handleBlur} tabIndex={0} cardData={cardData[4]} focusedCardIndex={focusedCardIndex} hasMedia={false}/>
-          </Box>
+             <StyledCard  onFocus={() => handleFocus(3)} onBlur={handleBlur} tabIndex={0} cardData={cardData[3]} focusedCardIndex={focusedCardIndex} hasMedia={true}/>
         </Grid>
         <Grid size={{ xs: 12, md: 4 }}>
-          <StyledCard  onFocus={() => handleFocus(5)} onBlur={handleBlur} tabIndex={0} cardData={cardData[5]} focusedCardIndex={focusedCardIndex} hasMedia={true}/>
+           <StyledCard  onFocus={() => handleFocus(4)} onBlur={handleBlur} tabIndex={0} cardData={cardData[4]} focusedCardIndex={focusedCardIndex} hasMedia={true}/>
         </Grid>
       </Grid>
     </Box>
