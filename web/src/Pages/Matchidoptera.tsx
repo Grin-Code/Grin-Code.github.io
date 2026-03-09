@@ -40,12 +40,12 @@ export default function Matchidoptera() {
           we also wanted to have follage tiles that will add difculity to the game, on top of this we also planned a hard mode where butterfly of the same species and gender can be match for the target goal. 
         </Typography>
         
-        <Typography>you can get a copy of Matchidoptera one the GGJ website link below or <Link target="_blank" to="https://github.com/Grin-Code/Matchidoptera/releases" rel="noreferrer"> Here</Link></Typography>
+        <Typography>you can get a copy of Matchidoptera one the GGJ website link below or <Link target="_blank" to="https://github.com/Grin-Code/Matchidoptera/releases" rel="noreferrer">Here</Link></Typography>
         <Box>
           <Typography variant="h4"> Links</Typography>
-          <Link target="_blank" to="https://globalgamejam.org/games/2026/matchidoptera-9" rel="noreferrer"> GGJ 2026 Matchidoptera page</Link>
+          <Link target="_blank" to="https://globalgamejam.org/games/2026/matchidoptera-9" rel="noreferrer">GGJ 2026 Matchidoptera page</Link>
           <br />
-          <Link target="_blank" to="https://github.com/Grin-Code/Matchidoptera" rel="noreferrer"> Matchidoptera Github Repo</Link>
+          <Link target="_blank" to="https://github.com/Grin-Code/Matchidoptera" rel="noreferrer">Matchidoptera Github Repo</Link>
         </Box>
         <Typography variant="h2">Gallery</Typography>
         <Grid container spacing={2} justifyContent={'center'}>
