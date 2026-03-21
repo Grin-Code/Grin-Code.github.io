@@ -53,7 +53,7 @@ interface StyledCardProps
 export default  function StyledCard(props: StyledCardProps){
     const {onFocus, onBlur, tabIndex, cardData, focusedCardIndex, hasMedia} = props;
     const Navigate = useNavigate();
-    console.log(process.env.PUBLIC_URL + cardData.img);
+    
     return(
         <CardStyling
         variant="outlined"
@@ -67,7 +67,7 @@ export default  function StyledCard(props: StyledCardProps){
                 {hasMedia?
                     <CardMedia
                     component="img"
-                    image={process.env.PUBLIC_URL + cardData.img}
+                    image={cardData.img}
                     sx={{
                         aspectRatio: '16 / 9',
                         borderBottom: '1px solid',

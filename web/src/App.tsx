@@ -9,8 +9,9 @@ import Peggle from './Pages/Peggle';
 import FacialRecongition from './Pages/Facial recongition with linear regression';
 import Snake from './Pages/Snake';
 
-export default function Blog(props: { disableCustomTheme?: boolean }) {
-    return (
+
+export default function App(props: { disableCustomTheme?: boolean }) {
+  return (
         <AppTheme {...props}>
             <CssBaseline enableColorScheme />
 
@@ -29,5 +30,5 @@ export default function Blog(props: { disableCustomTheme?: boolean }) {
                 </Routes>
             </Container>
         </AppTheme>
-    );
+  );
 }

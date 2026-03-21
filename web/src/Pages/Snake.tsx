@@ -39,21 +39,21 @@ export default function Snake() {
           <Link target="_blank" to="https://github.com/Grin-Code/Snek" rel="noreferrer">Snek Github Repo</Link>
         </Box>
         <Typography variant="h2">Gallery</Typography>
-        <Grid container spacing={2} justifyContent={'center'}>
+        <Grid container spacing={2}  sx={{justifyContent:'center'}}>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Start.png`} alt="Start"/>
+            <img  src={`${imageLocations}Start.png`} alt="Start"/>
             <Typography textAlign={'center'}>Start</Typography>
           </Box>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Larger board size.png`} alt="Larger board size"/>
+            <img  src={`${imageLocations}Larger board size.png`} alt="Larger board size"/>
             <Typography textAlign={'center'}>Larger game board size</Typography>
           </Box>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Player .png`} alt="Player "/>
+            <img  src={`${imageLocations}Player .png`} alt="Player "/>
             <Typography textAlign={'center'}>Player Controled</Typography>
           </Box>
            <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}aStar.png`}alt="aStar "/>
+            <img  src={`${imageLocations}aStar.png`}alt="aStar "/>
             <Typography textAlign={'center'}> Inverse A* pathfinding</Typography>
           </Box>
         </Grid>

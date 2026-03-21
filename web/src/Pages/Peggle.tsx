@@ -33,17 +33,17 @@ export default function Peggle() {
           <Link target="_blank" to="https://github.com/Grin-Code/Peggle" rel="noreferrer">Peggle Github Repo</Link>
         </Box>
         <Typography variant="h2">Gallery</Typography>
-        <Grid container spacing={2} justifyContent={'center'}>
+        <Grid container spacing={2} sx={{justifyContent:'center'}}>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Main Menu.png`} alt="Main Menu"/>
+            <img  src={`${imageLocations}Main Menu.png`} alt="Main Menu"/>
             <Typography textAlign={'center'}>Main Menu</Typography>
           </Box>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Level Select.png`} alt="Level select"/>
+            <img  src={`${imageLocations}Level Select.png`} alt="Level select"/>
             <Typography textAlign={'center'}>Level select</Typography>
           </Box>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Levels.png`} width={800} height={800} alt="Levels"/>
+            <img  src={`${imageLocations}Levels.png`} width={800} height={800} alt="Levels"/>
             <Typography textAlign={'center'}>Levels</Typography>
           </Box>
         </Grid>

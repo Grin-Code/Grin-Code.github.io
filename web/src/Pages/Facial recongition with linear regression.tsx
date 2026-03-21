@@ -42,13 +42,14 @@ export default function FacialRecongition() {
         </Box>
 
         <Typography variant="h2">Gallery</Typography>
-        <Grid container spacing={2} justifyContent={'center'}>
+        
+        <Grid container spacing={2} sx={{justifyContent:'center'}} >
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Start.png`} alt="Start"/>
+            <img  src={`${imageLocations}start.png`} alt="Start"/>
             <Typography textAlign={'center'}>Start up</Typography>
           </Box>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}using.png`} alt="Usage"/>
+            <img  src={`${imageLocations}using.png`} alt="Usage"/>
             <Typography textAlign={'center'}>Using software</Typography>
           </Box>
         </Grid>

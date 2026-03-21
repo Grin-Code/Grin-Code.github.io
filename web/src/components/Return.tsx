@@ -12,8 +12,7 @@ export default function Return() {
         <Box>
             <Button variant="outlined" startIcon={<ArrowBackRounded />} onClick={()=> Navigate('/')}>
                     back to home
-            </Button>
-            
+            </Button>    
         </Box>
     );
 }

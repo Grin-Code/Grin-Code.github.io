@@ -48,17 +48,17 @@ export default function Matchidoptera() {
           <Link target="_blank" to="https://github.com/Grin-Code/Matchidoptera" rel="noreferrer">Matchidoptera Github Repo</Link>
         </Box>
         <Typography variant="h2">Gallery</Typography>
-        <Grid container spacing={2} justifyContent={'center'}>
+        <Grid container spacing={2}  sx={{justifyContent:'center'}}>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Main Menu.png`} width={800} height={449} alt="Main Menu"/>
+            <img src={`${imageLocations}Main menu.png`} width={800} height={449} alt="Main Menu"/>
             <Typography textAlign={'center'}>Main Menu</Typography>
           </Box>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Game View.png`} width={800} height={448} alt="Game View"/>
+            <img  src={`${imageLocations}Game view.png`} width={800} height={448} alt="Game View"/>
             <Typography textAlign={'center'}>Game View</Typography>
           </Box>
           <Box>
-            <img  src={`${process.env.PUBLIC_URL}${imageLocations}Level Complete.png`} width={800} height={447} alt="Level Complete"/>
+            <img  src={`${imageLocations}Level Complete.png`} width={800} height={447} alt="Level Complete"/>
             <Typography textAlign={'center'}>Level Complete</Typography>
           </Box>
         </Grid>
