@@ -22,9 +22,9 @@ export default function MainContent() {
     setFocusedCardIndex(null);
   };
 
-  const handleClick = () => {
-    console.info('You clicked the filter chip.');
-  };
+  //const handleClick = () => {
+  //  console.info('You clicked the filter chip.');
+  //};
 
     const cardData = CardData.CardData;
   return (
