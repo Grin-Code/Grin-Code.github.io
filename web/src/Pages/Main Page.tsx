@@ -65,7 +65,7 @@ export default function MainContent() {
             overflow: 'auto',
           }}
         >
-          <Chip onClick={handleClick} size="medium" label="All categories" />
+        {/*<Chip onClick={handleClick} size="medium" label="All categories" />
           <Chip
             onClick={handleClick}
             size="medium"
@@ -103,8 +103,8 @@ export default function MainContent() {
             overflow: 'auto',
           }}
         >
-          <Search />
-        </Box>
+          <Search />*/}
+        </Box>   
       </Box>
       <Grid container spacing={2} columns={12}>
         <Grid size={{ xs: 12, md: 6 }}>

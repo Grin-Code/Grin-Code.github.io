@@ -43,7 +43,7 @@ export default function IdobaSim() {
       <ConentNav content={pageContent}/>        
         <Main open={true} sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
           <Return />
-          <Typography variant="h1" gutterBottom ID="idoba.sim">
+          <Typography variant="h1" gutterBottom id="idoba.sim">
              Idoba.sim
           </Typography>
           <Typography variant="body1">Idoba.sim is an underground mining simulation that allows users to plan, test and execute mining work schedules and exeisitng or future undergorund mines to allow for fesablility study, and optimise vehicles fleets.
@@ -52,11 +52,11 @@ export default function IdobaSim() {
             <br/>
             Here will go over some features of the viusalization that is built using the Unity game engine that are main feature of the product and more. There also be a secion on some UX/UI design work that I did whilst working at idoba.
           </Typography>
-          <Typography variant="h3" ID="Links">Links</Typography>
+          <Typography variant="h3" id="Links">Links</Typography>
           <Link target="_blank" to="https://www.idoba.com/underground-mining-simulation-software" rel="noreferrer">Idoba.sim website</Link>
           <Typography>I cannot have the files publicly avaliabe so please request to see Authorized file from Idoba.sim Unity project</Typography>
 
-          <Typography variant="h2" ID="Road system">Road system for generating client networks</Typography>
+          <Typography variant="h2" id="Road system">Road system for generating client networks</Typography>
           <Typography variant="h3">Introduction</Typography>
           <Typography variant="body1">
           The product needs a way to visualise each client's underground mine network, so that any road network provided to the system renders without issue.
@@ -79,7 +79,7 @@ export default function IdobaSim() {
             but this caused a speed issue when generating the models, retrieving information about the road vertices, and modifying the splines. To minimise the initial overhead for the model generation, a custom sampler was created for the model vertex generation.
           </Typography>
 
-          <Typography variant="h2" ID="Network error visualisation">Network error visualisation</Typography>
+          <Typography variant="h2" id="Network error visualisation">Network error visualisation</Typography>
           <Typography variant="h3">Introduction</Typography>
           <Typography variant="body1">
             Some times when users create the model and upload the files to idoba.sim Data ingestion there will be network errors or warnings, where errors are showstopper since it will not work in the model and warning will still run but might cause some issues with the model.
@@ -98,7 +98,7 @@ export default function IdobaSim() {
             With these errors we need a clear way to show the issues on the network so we had visual and written log of any issue found with the users network, that allowed users to interigate the road vertices by clicking any vertex issue or not which will provide meta data for that
             vertex that can bet taken to Deswik to fix if needed. Each of the visualisation have unique shaders to provide a clear different look for each network error that clearly indicate which vertices are affected area that it will affect of the road between vertices if appliable.
             The vertices marks are from the users network file that are encoded into an image to produce a dot with centre line through them.
-          <Typography variant="h2" ID="Canvas controls and navigation">Canvas controls and navigation</Typography>
+          <Typography variant="h2" id="Canvas controls and navigation">Canvas controls and navigation</Typography>
           <Typography variant="h3">Introduction</Typography>
           <Typography variant="body1">
             We have environment that contains a quite large mine networks we would need a way for users to explore this environment, that requires the freely move around the entire environment however they what to. These controls needs to be intiuative and
@@ -129,7 +129,7 @@ export default function IdobaSim() {
             the toolkit doesn't allow for depth on its UI elements to fix this I have a the UI elements that are the bubbles and a distance calc on physical empty object that repesent the axis to create the same effect. There is also a axis lines accross the entire envirnoument to show where you are from the centre of the mine site to help users know where they are if they get lost the extents button helps with this too.
           </Typography>
           <img src={`${imageLocations}/wonderbar/Wunderbar - Sim analysis-1.jpg`} alt="Main Menu"/>
-          <Typography variant="h2" ID="Design work">Design work</Typography>
+          <Typography variant="h2" id="Design work">Design work</Typography>
           <Typography variant="h3">Introduction</Typography>
           <Typography variant="body1">
             While working at idoba as part of the UX/UI team, this was because the I was also designed and developing most of the 3D visualisation and the majorty of my work didn't match a lost of the other developers work. It was also required that I
@@ -155,7 +155,7 @@ export default function IdobaSim() {
           </Typography>
             <img src={`${imageLocations}/Heatmapping/One-way ramp confliction heatmap.jpg`}  alt="Main Menu"/>
 
-          <Typography variant="h2" ID="Gallery"> Gallery</Typography>
+          <Typography variant="h2" id="Gallery"> Gallery</Typography>
           <ImageList variant="masonry" cols={3} gap={8}>
             {itemdata.map((item) => (
               <ImageListItem key={item.img}>
